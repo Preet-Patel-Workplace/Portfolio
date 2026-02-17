@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preet Patel | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/modernHome.css" />
+</head>
+
+<body data-page="home">
+  <!-- APP BAR -->
+  <header class="appbar">
+    <div class="container">
+      <div class="appbar__inner">
+        <div class="brand" aria-label="Brand">
+          <div class="brand__title">Preet Patel Portfolio</div>
+          <div class="brand__subtitle">Computer Science Diploma Student |<br> Software Developer Track</div>
+        </div>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <a href="index.html" class="is-active" data-nav="home">Home</a>
+          <a href="WebDev/Landing%20Page/index.html" data-nav="web-development">Web Development</a>
+          <a href="DSA/Landing%20Page/index.html" data-nav="dsa">DSA</a>
+          <a href="Certificates/Landing%20Page/index.html" data-nav="certificates">Certificates</a>
+          <a href="transcript.html" data-nav="transcript">Transcript</a>
+        </nav>
+
+        <div class="actions" aria-label="Header actions">
+          <a class="btn btn--primary" href="https://www.linkedin.com/in/preet-patel-475110376" aria-label="Jump to Projects">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M8 7h12M8 12h12M8 17h12M4.5 7h.01M4.5 12h.01M4.5 17h.01" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" />
+              </svg>
+            </span>
+            LinkedIn
+          </a>
+
+          <!-- Update these hrefs with your real links anytime -->
+          
+          <a class="btn btn--primary" href="https://github.com/Preet-Patel-Workplace" aria-label="GitHub link (add your URL)">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.61.07-.61 1 .07 1.52 1.03 1.52 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.64-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.28.1-2.66 0 0 .84-.27 2.75 1.02A9.6 9.6 0 0 1 12 6.8c.85 0 1.7.11 2.5.33 1.9-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.41.1 2.66.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.86v2.75c0 .26.18.57.69.48A10 10 0 0 0 12 2Z"
+                  stroke="currentColor" stroke-width="1.4" />
+              </svg>
+            </span>
+            GitHub
+          </a>
+
+          <a class="btn" href="./Extras/Resume - PreetPatel.pdf" aria-label="Resume link (add your URL)">
+            <span class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6Z" stroke="currentColor"
+                  stroke-width="2" />
+                <path d="M14 2v6h6" stroke="currentColor" stroke-width="2" />
+                <path d="M8 13h8M8 17h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </span>
+            Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- ABOUT -->
+    <section class="section" aria-label="About">
+      <div class="section__head">
+        <div>
+          <h2 class="section__title">About Me</h2>
+          <p class="section__subtitle">A quick snapshot and what I’m focused on right now.</p>
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="card aboutCard">
+          <div class="aboutRow">
+            <div class="avatar" aria-label="Profile photo">
+              <img src="images/photo.jpeg" alt="Profile photo" />
+            </div>
+            <div>
+              <div class="aboutName">Preet Patel</div>
+              <p class="aboutText">
+                I am a second-year Computer Science diploma student in the Faculty of Science.
+                I enjoy building clean, practical software and improving both frontend and problem-solving skills.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card aboutCard">
+          <div class="aboutName">Quick Profile</div>
+          <div class="kv">
+            <div class="kv__item">
+              <div class="kv__k">Focus</div>
+              <div class="kv__v">Web development and core CS fundamentals</div>
+            </div>
+            <div class="kv__item">
+              <div class="kv__k">Goal</div>
+              <div class="kv__v">Software Developer role after graduation</div>
+            </div>
+            <div class="kv__item">
+              <div class="kv__k">Favorite Quote</div>
+              <div class="kv__v quote">“The best way to predict the future is to create it.”</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOME / HERO -->
+    <section id="home" class="hero" aria-label="Home">
+      <div class="panel">
+        <div class="panel__content">
+          <div class="kicker"><span class="dot" aria-hidden="true"></span>Web development • DSA • Certificates •
+            Transcript</div>
+          <h1>Clean, modern portfolio to showcase projects and progress.</h1>
+          <p class="lead">
+            I am a Computer Science diploma student focused on web development and core CS fundamentals.
+            Use the sections below to explore my work.
+          </p>
+
+          <div class="badges" aria-label="Highlights">
+            <div class="badge">
+              <span aria-hidden="true">⚡</span> Focus: <span>Web development + core CS</span>
+            </div>
+            <div class="badge">
+              <span aria-hidden="true">🎯</span> Goal: <span>Software Developer after graduation</span>
+            </div>
+            <div class="badge">
+              <span aria-hidden="true">📌</span> Track: <span>Software Developer</span>
+            </div>
+          </div>
+
+          <div class="cta" aria-label="Primary actions">
+            <a class="btn btn--primary" href="#projects">Explore Projects</a>
+            <a class="btn" href="WebDev/Landing%20Page/index.html">Open Web Development</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="stats">
+          <a class="mini" href="WebDev/Landing%20Page/index.html" aria-label="Web Development section">
+            <div class="mini__icon" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none">
+                <path d="M4 5h16v14H4V5Z" stroke="currentColor" stroke-width="2" />
+                <path d="M4 9h16" stroke="currentColor" stroke-width="2" />
+                <path d="M8 13h4M8 16h6" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div>
+              <div class="mini__title">Web Development</div>
+              <p class="mini__desc">HTML, CSS, JavaScript projects from my MERN learning path.</p>
+            </div>
+          </a>
+
+          <a class="mini" href="DSA/Landing%20Page/index.html" aria-label="DSA section">
+            <div class="mini__icon" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none">
+                <path d="M7 7h10M7 12h6M7 17h10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M4 5h16v14H4V5Z" stroke="currentColor" stroke-width="2" />
+              </svg>
+            </div>
+            <div>
+              <div class="mini__title">DSA</div>
+              <p class="mini__desc">Problem solving practice, patterns, and coding progress.</p>
+            </div>
+          </a>
+
+          <a class="mini" href="Certificates/Landing%20Page/index.html" aria-label="Certificates section">
+            <div class="mini__icon" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none">
+                <path d="M7 4h10v16H7V4Z" stroke="currentColor" stroke-width="2" />
+                <path d="M9 8h6M9 12h6M9 16h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div>
+              <div class="mini__title">Certificates</div>
+              <p class="mini__desc">Course and skill certificates with downloadable documents.</p>
+            </div>
+          </a>
+
+          <a class="mini" href="transcript.html" aria-label="Transcript section">
+            <div class="mini__icon" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none">
+                <path d="M6 3h12v18H6V3Z" stroke="currentColor" stroke-width="2" />
+                <path d="M8 7h8M8 11h8M8 15h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+            <div>
+              <div class="mini__title">Transcript</div>
+              <p class="mini__desc">Academic record section for transcript updates.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section" aria-label="Projects">
+      <div class="section__head">
+        <div>
+          <h2 class="section__title">Projects</h2>
+          <p class="section__subtitle">Choose a section to explore my work.</p>
+        </div>
+      </div>
+
+      <div class="grid grid--3">
+        <a class="card" href="WebDev/Landing%20Page/index.html" id="web-development"
+          aria-label="Open Web Development page">
+          <div class="card__top">
+            <div>
+              <h3 class="card__title">Web Development</h3>
+              <div class="card__body">HTML, CSS, and JavaScript projects from my MERN learning path.</div>
+              <div class="card__meta">
+                <span class="pill">Frontend</span>
+                <span>Open section →</span>
+              </div>
+            </div>
+            <div class="card__icon" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none">
+                <path d="M4 5h16v14H4V5Z" stroke="currentColor" stroke-width="2" />
+                <path d="M4 9h16" stroke="currentColor" stroke-width="2" />
+                <path d="M8 13h8" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+          </div>
+        </a>
+
+        <a class="card" href="DSA/Landing%20Page/index.html" id="dsa" aria-label="Open DSA page">
+          <div class="card__top">
+            <div>
+              <h3 class="card__title">DSA</h3>
+              <div class="card__body">Problem solving practice, patterns, and coding progress.</div>
+              <div class="card__meta">
+                <span class="pill">Core CS</span>
+                <span>Open section →</span>
+              </div>
+            </div>
+            <div class="card__icon" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none">
+                <path d="M7 7h10M7 12h6M7 17h10" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                <path d="M4 5h16v14H4V5Z" stroke="currentColor" stroke-width="2" />
+              </svg>
+            </div>
+          </div>
+        </a>
+
+        <a class="card" href="Certificates/Landing%20Page/index.html" id="certificates"
+          aria-label="Open Certificates page">
+          <div class="card__top">
+            <div>
+              <h3 class="card__title">Certificates</h3>
+              <div class="card__body">Course and skill certificates with downloadable documents.</div>
+              <div class="card__meta">
+                <span class="pill">Learning</span>
+                <span>Open section →</span>
+              </div>
+            </div>
+            <div class="card__icon" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none">
+                <path d="M7 4h10v16H7V4Z" stroke="currentColor" stroke-width="2" />
+                <path d="M9 8h6M9 12h6M9 16h4" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+          </div>
+        </a>
+
+        <a class="card" href="transcript.html" id="transcript" aria-label="Open Transcript page">
+          <div class="card__top">
+            <div>
+              <h3 class="card__title">Transcript</h3>
+              <div class="card__body">Academic record section for transcript updates.</div>
+              <div class="card__meta">
+                <span class="pill">Academics</span>
+                <span>Open section →</span>
+              </div>
+            </div>
+            <div class="card__icon" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" fill="none">
+                <path d="M6 3h12v18H6V3Z" stroke="currentColor" stroke-width="2" />
+                <path d="M8 7h8M8 11h8M8 15h5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+
+
+    <!-- EXPLORE -->
+    <section class="section" aria-label="Explore">
+      <div class="section__head">
+        <div>
+          <h2 class="section__title">What You Can Explore Here</h2>
+          <p class="section__subtitle">
+            This portfolio includes web projects, DSA progress work, and academic certificates. Use the navigation above
+            to browse each section.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card__top">
+          <div>
+            <h3 class="card__title">Next steps</h3>
+            <div class="card__body">
+              Add your Resume and GitHub URLs in the header buttons, and keep updating each section as you finish new
+              projects and certificates.
+            </div>
+            <div class="card__meta">
+              <span class="pill">Maintain</span>
+              <span>Update regularly</span>
+            </div>
+          </div>
+          <div class="card__icon" aria-hidden="true">
+            <svg class="icon" viewBox="0 0 24 24" fill="none">
+              <path d="M12 2l3 6 7 .9-5 4.6 1.3 6.6L12 17l-6.3 3.1L7 13.5 2 8.9 9 8l3-6Z" stroke="currentColor"
+                stroke-width="1.8" stroke-linejoin="round" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer" role="contentinfo">
+        <div>© <span id="year"></span> Preet Patel</div>
+        <div>Built with HTML + CSS + JS</div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="js/modernNav.js"></script>
+</body>
+
+</html>

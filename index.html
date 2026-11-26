@@ -2178,18 +2178,18 @@
       setTimeout(matrixTypingEffect, 500);
 
       // Journey Map with Leaflet
-      // Start on (and reset to) the whole province of Saskatchewan.
-      // Its south-west and north-east corners; the padding keeps The Pas,
-      // just over the Manitoba border, in view too.
-      const saskatchewanBounds = L.latLngBounds([49.0, -110.0], [60.0, -101.4]);
-      const showSaskatchewan = () =>
-        map.fitBounds(saskatchewanBounds, { padding: [30, 30] });
+      // Start on (and reset to) a view of all of North America.
+      // To change it, edit the centre [latitude, longitude] or the zoom
+      // (bigger zoom = closer in; 3 shows the continent, 5 one province).
+      const homeView = { center: [52, -98], zoom: 3 };
+      const showHomeView = () =>
+        map.setView(homeView.center, homeView.zoom);
 
       const map = L.map("journey-map", {
         scrollWheelZoom: false,
         zoomControl: true,
       });
-      showSaskatchewan();
+      showHomeView();
 
       L.tileLayer(
         "https://watercolormaps.collection.cooperhewitt.org/tile/watercolor/{z}/{x}/{y}.jpg",
@@ -2213,7 +2213,7 @@
 
           L.DomEvent.on(link, "click", function (e) {
             e.preventDefault();
-            showSaskatchewan();
+            showHomeView();
           });
 
           return container;
